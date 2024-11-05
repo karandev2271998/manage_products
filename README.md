@@ -38,7 +38,15 @@ Follow these instructions to set up and run the project locally.
    ```bash
    php artisan key:generate
 
-4. **Serve the Application**
+6. **Generate Jwt secret Key**
+   ```bash
+   php artisan jwt:secret
+
+7. **Generate Storage Key**
+   ```bash
+   php artisan storage:link
+
+8. **Serve the Application**
    ```bash
    php artisan serve
 
